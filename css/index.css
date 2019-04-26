@@ -1,7 +1,15 @@
+
+@font-face {
+  font-family: 'indielabs Frutiger regular';
+  src:url('../fonts/indielabs Frutiger regular.ttf') format('truetype');   
+}
+
+
 body
 {
     padding: 0;
-    margin: 0;    
+    margin: 0; 
+    font-family: 'indielabs Frutiger regular';
 }
 
 
@@ -654,21 +662,24 @@ body
     width: 80%;
     margin: auto;
 }
-@media (max-width: 767px) {
- .work
-    {
-        margin-top:100px;
-    }
-}
+
 @media (max-width: 1200px) {
 
+/*
     .workbk
     {
         width: 90%;
     }
     
+*/
 }
+@media (max-width: 767px) {
+ .work
+    {
+        margin-top:100px;
+    }
 
+}
 
 
 /***end work ***/
@@ -720,7 +731,7 @@ body
 }
 .prag
 {
-    float: left;
+/*    float: left;*/
     display: inline-block;
     text-align: left;
 }
