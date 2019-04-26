@@ -1,0 +1,919 @@
+body
+{
+    padding: 0;
+    margin: 0;    
+}
+
+
+
+.imghove
+{
+     position: relative;
+     background-color: rgba(0, 0, 0, 0.85);  
+}
+
+.imghove:hover img {
+      opacity: .4;
+      transition: all ease-in-out 0.5s;
+}
+
+.imghove span
+{
+    position: absolute;
+    top: 50%;
+    left: 48%;
+    color: transparent;
+}
+.imghove:hover span
+{
+    color: #fff;
+}
+
+
+
+.imgline img
+{
+    margin: auto;
+    width: 6%;
+    
+}
+
+/***strat navbar***/
+.navbar
+{
+    background-color: #4A58BD;
+    color: #fff;
+    border: none;
+    padding: 0;
+    margin: 0px;
+    border-radius: 0;
+    padding: 10px;
+    text-transform:uppercase;
+    padding: 20px;
+    padding-bottom: 50px;
+    margin-right: 2px;
+}
+
+.navbar-default .navbar-nav>li>a
+{
+    color: #fff;
+    margin-top: 20px;
+    font-size: 13px;
+    font-weight: 600;
+}
+.navbar-default .navbar-nav>li>a:hover
+{
+    color: #ddd;
+    transition: all ease-in-out 0.3s;
+}
+
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover
+{
+    color: #fff;
+    background-color: transparent;
+}
+
+.navbar-brand>img
+{
+    margin: auto;
+    width: 25%;
+}
+
+.sp1
+{
+    margin-left: 1px;
+}
+
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+    
+  
+}
+
+/* Portrait ipad*/
+@media (max-width: 1200px) {
+      .spchillink
+{
+    margin-top:-65px; 
+}
+.navbar-brand>img
+{
+    width: 22%;
+    margin-left: 300px;   
+}
+.sp1
+{
+ 
+    margin-bottom:-69px;
+}    
+.spchillink {
+    margin-top: -50px;
+}  
+    
+.navbar-brand>img {
+    width: 22%;
+    margin-left: 380px;
+    margin-top: -12px;
+} 
+.navbar
+{
+    margin-right: 0px;
+}    
+    
+}
+
+
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+  
+.slider
+    {
+/*        display: none;*/
+    }
+
+    .imgabout {
+     width: 100%; 
+     margin-left: 0px; 
+    }
+    .iner-slider
+    {
+        width: 90%;
+        margin: auto;
+    }
+    .lasticon
+    {
+        text-align: center;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    .footer ul li
+    {
+        text-align: center;
+    }
+    .footer p 
+    {
+        margin-left: 25px;
+    }
+    .imgfoot
+    {
+        margin: auto;
+        width: 50%;
+    }
+.navbar-brand>img {
+    width: 22%;
+    margin-left: 200px;   
+    }  
+    .navbar-nav>li>a
+    {
+        line-height: 60px;
+    }
+    .navbar-brand {
+    float: left;
+     height: 0px; 
+     padding:15px; 
+    font-size: 18px;
+    line-height: 20px;
+}
+
+   
+}
+
+
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+ 
+    .spchillink
+{
+    margin-top:-65px; 
+}
+.navbar-brand>img {
+    width: 22%;
+    margin-left: 300px;   
+    }
+.sp1
+{
+ 
+    margin-bottom:-69px;
+}    
+.spchillink {
+    margin-top: -50px;
+}    
+    
+.navbar-brand>img {
+    width: 22%;
+    margin-top: -12px;
+} 
+.navbar
+    {
+           margin-right: 0px;
+    }
+    
+    
+   
+}
+
+/***end navbar***/
+
+
+
+/***strat slider***/
+
+.slider
+{
+    background-image: url(../img/Head%20BG.png);
+    background-size: cover;
+    background-position: bottom;
+    height:560px;
+    border: transparent ;
+    margin-top: -3px;
+    cursor: pointer;
+    
+   
+}
+
+.inr-slide
+{
+   padding-top:80px;
+    color: #fff;
+    margin: auto;
+}
+.inr-pslider
+{
+    margin: auto;
+    margin-left: 118px;
+/*    margin-left: 59px;*/
+}
+.inr-pslider h1
+{
+    font-weight: bold;
+    font-size: 38px;
+     text-align: justify;
+    margin: auto;
+    margin-bottom: 30px;   
+}
+.inr-pslider p
+{
+    width: 80%;
+    line-height: 1.8;
+}
+/*
+.inr-pic img
+{
+    margin-top: 10px;
+    width: 100%;
+}
+*/
+.bton1
+{
+    color:#4A58BD;
+    background-color: #fff;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 30px;
+    margin-right: 20px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.bton1:hover
+{
+    color: #4A58BD;
+}
+.bton2
+{
+    color:#fff;
+    background-color: #FFBE48;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+.bton2:hover
+{
+    color: #fff;
+}
+
+
+/* Portrait ipad*/
+@media (max-width: 1200px) {
+ .inr-pslider
+    {
+        margin-left: 30px;
+    }
+    .slider {
+    height: 502px;
+    }
+    
+.inr-slide {
+    padding-top: 90px;
+    }
+    
+
+}
+
+
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+ .inr-pslider
+    {
+        margin-left: 0;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .inr-slide
+    {
+        padding-top: 0;
+    }
+    .inr-pslider h1
+    {
+        text-align: center;
+    }
+    .inr-pslider p
+    {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+
+.inr-pslider p
+{
+    width: 40%;
+}
+     
+.slider 
+{
+    height: 545px;
+}
+    
+.inr-slide
+{
+    padding-top: 105px;
+}
+    
+.inr-pic img 
+{
+
+    width: 62%;
+    margin-left: 366px;
+    margin-top: -115px;
+}
+
+}
+.inr-pic 
+{
+ 
+/*
+    width: 100%;
+    margin-left: 15px;
+    margin-top: -195px;
+*/
+
+}
+        
+        
+    }
+
+ 
+
+
+
+/*** end slider***/
+
+
+
+
+
+/***strat about ***/
+.about
+{
+    margin: auto;
+    margin-top: 80px;
+    background-image: url(../img/aboutcover.png);
+    background-size: cover;
+    background-position: center;
+}
+.about h3
+{
+    font-weight: bold;
+     color: black;
+}
+.squre
+{
+    width: 76%;
+    height: 400px;
+    margin: auto;
+    background-color:#39459B;
+    margin-top: 50px;
+    padding-top: 80px;
+}
+.imgabout
+{
+    width: 85%;
+    margin-left: 200px;
+/*
+    position: absolute;
+    left: 250px;
+*/
+}
+.pragabout
+{
+    width: 80%;
+    margin: auto;
+    padding-top: 80px; 
+    margin-left: 90px;
+}
+.pragabout h3
+{
+    line-height: 1.5;
+    color: #535A85;
+    font-weight: bold;
+}
+.pragabout p
+{
+    width: 80%;
+    color: black;
+}
+
+.btnabout
+{
+    color:#4A58BD;
+    background-color: #fff;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 30px;
+    margin-right: 20px;
+    margin-top: 20px;
+    font-weight: bold;
+    border: 1px solid #B6BBE4;
+    transition: all ease-in-out 0.5s;
+}
+.btnabout:hover
+{
+    color:#fff;
+    background-color: #B6BBE4;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 30px;
+    margin-right: 20px;
+    margin-top: 20px;
+    font-weight: bold;
+    border: 1px solid #B6BBE4;
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+ 
+.inr-pslider
+    {
+/*        margin-left: 30px;*/
+    }
+   
+}
+
+/* Portrait ipad*/
+@media (max-width: 1200px) {
+
+    .squre
+    {
+        height: 380px;
+    }
+    .pragabout 
+    {
+        padding-top: 40px;
+    }
+    
+    
+    .imgabout {
+    width: 87%;
+    margin-left: 195px;
+    margin-top: 13px;
+    }
+    .about
+    {
+        margin-top: 50px;
+        width: 99%;
+        margin: auto;
+    }
+    
+    
+}
+
+@media (max-width: 767px) {
+    
+.imgabout {
+     width: 100%; 
+     margin-left: 0px; 
+}
+}
+
+
+/***end about ***/
+
+/***start feat ***/
+.feat
+{
+    margin-top: 80px;
+}
+
+.feat h3
+{
+    font-weight: bold; 
+    padding-top:50px;
+}
+.feat p
+{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    color: #777;
+}
+
+.backfeat
+{
+    margin: auto;
+    background-image: url(../img/Feature%20BG.png);
+    background-size: cover;
+    background-position: center;
+    height: 1050px;
+    width: 90%;
+}
+.box 
+{
+    width: 85%;
+    margin: auto;
+    margin-top: 50px;
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #eee;
+    box-shadow: 2px 2px 15px #ccc;
+    position: relative;
+    transition: all ease-in-out 0.3s;
+}
+.box:hover
+{
+    border: 1px solid #333f8b ;
+}
+.box  h4
+{
+    color: #364292;
+    font-weight: bold;
+}
+.box  p
+{
+    color: #777;
+}
+.img-box img 
+{
+    margin: auto;
+    padding-top:16px;
+    width: 65%;
+
+}
+.img-box
+{
+    width: 80px;
+    height: 80px;
+    background-image: url(../img/Icone%20BG%202.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;  
+      
+}
+
+.img-box:hover
+{
+
+    z-index: 9999;
+}
+
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+    .backfeat
+    {
+        height: 2000px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+ .box
+    {
+        width: 100%;
+    }
+}
+/* Portrait ipad*/
+@media (max-width: 1200px) {
+
+.box
+    {
+        width: 100%;
+    }
+    .backfeat
+    {
+        width: 90%;
+    }
+
+    
+}
+
+/***end feat ***/
+
+
+/***start work ***/
+
+.work
+{
+
+    background-image: url(../img/BG2%20-%20Work.png);
+    background-size:contain;
+    background-position: right;
+    background-repeat: no-repeat;
+    margin: auto;
+    margin-top: -180px;
+}
+.work h3
+{
+    font-weight: bold; 
+    padding-top:50px;
+}
+.work p
+{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    color: #777;
+}
+.workbk
+{
+    width: 80%;
+    margin: auto;
+}
+@media (max-width: 767px) {
+ .work
+    {
+        margin-top:100px;
+    }
+}
+@media (max-width: 1200px) {
+
+    .workbk
+    {
+        width: 90%;
+    }
+    
+}
+
+
+
+/***end work ***/
+
+/***start slider ***/
+.sliderr
+{
+    margin-top: 100px;
+}
+
+.slick-prev:before, .slick-next:before
+{
+    color: #FFBE48;
+}
+
+/***end slider ***/
+
+
+/***start contact ***/
+
+.contact h3
+{
+    font-weight: bold; 
+    padding-top:50px;
+}
+.contact p
+{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    color: #777;
+}
+
+
+.box-cont
+{
+    margin: auto;
+    width: 80%;
+}
+.icon
+{
+    float: left;
+    margin-right: 20px;
+    margin-top: 20px;
+    background-color: #13C8C2;
+    padding: 15px;
+    border-radius: 50%;
+    color: #fff;
+    box-shadow: 2px 2px 10px #ccc;    
+}
+.prag
+{
+    float: left;
+    display: inline-block;
+    text-align: left;
+}
+.prag h4
+{
+    color: #39459B;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.prag span
+{
+    text-align: left;
+    color: #444;
+}
+.clr
+{
+    clear: both;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+  .box-cont
+    {
+        width: 100%;
+    }
+ 
+}
+
+/***end contact ***/
+
+/***start input ***/
+.input 
+{
+    margin: auto;
+    margin-top: 60px;  
+}
+
+.form-control {
+    display: block;
+    box-shadow: 2px 2px 5px #eee;
+    width: 100%;
+    border: 1px solid #eee;
+    border-radius: 10px;
+ 
+}
+
+.btncont
+{
+    background-color: #FFBE48;
+    color: #fff;
+    padding-right: 60px;
+    padding-left: 60px;
+    border-radius: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.big-contact
+{
+    background-image: url(../img/BG%20-%20Contact2%20Us.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    margin-top: 40px;
+}
+.form-control:focus
+{
+    border-color:#FFBE48;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(233, 223, 102, 0.6);
+}
+
+@media (max-width: 767px) {
+ .form-control {
+     margin-bottom: 10px;
+    }
+}
+
+/***end input ***/
+
+
+/***start footer ***/
+.footer
+{
+    background-color:#39459B;
+    color: #eee;
+    padding-top: 50px;
+}
+.list1
+{
+    margin-top: 20px;
+    letter-spacing: 1px;
+    text-align: left;
+}
+.list1 ul li
+{
+    list-style: none;
+    padding: 8px;
+    font-weight: 500;
+}
+.list1 p
+{
+    display: inline-block;
+}
+
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+    .imgfoot img
+    {
+       margin: auto;
+    }
+    .list1
+    {
+         text-align: center;
+    }
+}
+
+
+ 
+/***end footer ***/
+
+.slid
+{
+    background-color:darkblue;
+    color: #fff;
+    z-index: 0;
+}
+
+
+
+.pic2
+{
+    height: 180px;
+}
+.pic3
+{
+   height: 180px; 
+}
+.pic1
+{
+    height: 280px;
+}
+.pic4
+{
+   height: 280px; 
+}
+
+.nas
+{
+    margin-top: 100px;
+    z-index: 99999;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+
+ Portrait tablets and small desktops 
+@media (min-width: 768px) and (max-width: 991px) {
+
+.inr-pslider h1
+    {
+       text-align: center;
+    }
+.inr-pslider p {
+    display: none;
+    }
+.inr-pslider
+    {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+.inr-slide {
+    padding-top: 40px;
+
+    }
+.nas  
+    {
+        margin-top: 60px;
+    }
+    
+}
+
+
+/***start Copy ***/
+.copyrigth
+{
+    background-color:  #2B3476;
+    padding: 10px;
+    padding-top: 15px;
+    color: #eee;
+}
+
+/***end copy ***/
+
